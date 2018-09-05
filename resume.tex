@@ -11,7 +11,7 @@
 %dvips -Ppdf -t letter resume.dvi
 %ps2pdf resume.ps
 
-\documentclass[letterpaper, 10pt]{article}
+\documentclass[letterpaper, 11pt]{article}
 
 %-----------------------------------------------------------
 %Margin setup
@@ -22,12 +22,12 @@
 \setlength{\headheight}{0in}
 \setlength{\headsep}{0in}
 \setlength{\textheight}{11in}
-\setlength{\textheight}{9.5in}
-\setlength{\topmargin}{-0.25in}
-\setlength{\textwidth}{7in}
+\setlength{\textheight}{10in}
+\setlength{\topmargin}{-0.5in}
+\setlength{\textwidth}{7.5in}
 \setlength{\topskip}{0in}
-\setlength{\oddsidemargin}{-0.25in}
-\setlength{\evensidemargin}{-0.25in}
+\setlength{\oddsidemargin}{-0.5in}
+\setlength{\evensidemargin}{-0.5in}
 %-----------------------------------------------------------
 %\usepackage{fullpage}
 \usepackage{shading}
@@ -48,12 +48,12 @@
 \end{tabular*}\vspace{-6pt}}
 
 \newcommand{\ressubheadinga}[2]{
-\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+\begin{tabular*}{7.11in}{l@{\extracolsep{\fill}}r}
 		\textbf{#1} & #2 \\
 \end{tabular*}}
 
 \newcommand{\ressubheadingb}[2]{
-\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+\begin{tabular*}{7.11in}{l@{\extracolsep{\fill}}r}
 		\textit{#1} & \textit{#2} \\
 \end{tabular*}\vspace{-6pt}}
 
@@ -61,83 +61,98 @@
 
 
 \begin{document}
-\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
 \textbf{\Large Daksh Jotwani} \vspace{1pt}\\
-djotwani@purdue.edu & 527 N. Grant St. \#4 \\
-415-866-9794 & West Lafayette, IN 47906\\
+djotwani@purdue.edu & www.dakshjotwani.com\\
+415-866-9794 & github.com/dakshjotwani\\
 \end{tabular*}
 \\
 %\bigskip
 %\vspace{0.1in}
 %\textbf{Objective:} To obtain a position as an RF engineer at Northrop Grumman.
 \resheading{Education}
-\vspace{-0.25in}
+\vspace{-0.235in}
 \begin{itemize}
 
 \item
 	\ressubheadinga{Purdue University}{West Lafayette, IN}
-	\ressubheadingb{Pursuing B.S., Computer Science Honors, Mathematics}{Aug. 2016 - Present}
+	\ressubheadingb{B.S. Computer Science Honors, B.S. Mathematics}{Aug. 2016 - Present}
 	\begin{itemize}
-		\resitem{GPA: 3.95, Dean's List.}
-		\resitem{Expected Graduation Date: December 2019.}
-		\resitem{Relevant ongoing courses: Algorithms, Intro to Machine Learning and Data Mining, Vector Calculus.}
-		\resitem{Relevant completed courses: Systems Programming, Data Structures and Algorithms, Intro to Databases, Computer Architecture, Linear Algebra, C Programming, Linear Algebra (1 and 2).}
+		\resitem{GPA: \textbf{3.95/4.00}, Dean's List.}
+		\resitem{Expected Graduation Date: \textbf{December 2019.}}
+		\resitem{Relevant ongoing courses: Algorithms, Machine Learning and Data Mining, Vector Calculus.}
+		\resitem{Relevant completed courses: Systems Programming, Data Structures and Algorithms, Databases, Computer Architecture, C Programming, Advanced Linear Algebra, Differential Equations.}
 	\end{itemize}
 
 \end{itemize}
-\vspace{-0.1in}
+
+\vspace{-0.16in}
 \resheading{Work Experience}
-\vspace{-0.25in}
+\vspace{-0.235in}
+
 \begin{itemize}
 \item
-	\ressubheadinga{NASA Goddard Space Flight Center}{Greenbelt, MD}
-	\ressubheadingb{Graduate Student Intern}{June 2018 - Aug. 2018}
-	\begin{itemize}
-		\resitem{Developed a standardized synthetic aperture radar data processing software package in Python.}
-		\resitem{Collaborated with mentors to determine appropriate features and characteristics for the software to satisfy all use cases.}
-		\resitem{Focused and corrected image data generated from collected radar data.}
-	\end{itemize}
-
-\item 
-	\ressubheadinga{Purdue Summer Undergraduate Research Fellowship}{West Lafayette, IN}
-	\ressubheadingb{Undergraduate Research Assistant}{June 2017 - Aug. 2017}
-	\begin{itemize}
-		\resitem{Constructed software-based receivers for remote sensing applications of global navigational satellite systems.}
-		\resitem{Designed a server to meet data acquisition and processing demands.}
-		\resitem{Abstract available at http://docs.lib.purdue.edu/surf/2017/presentations/104}
-	\end{itemize}
-\item
-	\ressubheadinga{Undergraduate Teaching Assistant}{West Lafayette, IN}
-	\ressubheadingb{Microprocessor Systems and Interfacing, Digital Design}{Jan. 2016 - Dec. 2016}
-	\begin{itemize}
-		\resitem{Taught students debugging practices for use when designing and programming embedded systems and programmable logic devices.}
-		\resitem{Oversaw weekly lab sessions, presented information about the experiments, and helped students when they had trouble.}
-	\end{itemize}
-
+    \ressubheadinga{Purdue University, Department of Computer Science}{West Lafayette, IN}
+    \ressubheadingb{Undergraduate Teaching Assistant}{August 2018 - Present}
+    \begin{itemize}
+        \resitem{Teach and grade labs for a \emph{Systems Programming} class that covers fundamental system calls and the use of operating systems.}
+        \resitem{Host weekly office hours to answer questions related to lab assignments.}
+    \end{itemize}
 \end{itemize}
 
-\vspace{-0.1in}
-\resheading{Awards}
-\vspace{-0.1in}
-	\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
-		Purdue Ross Fellowship\\
-		Andrew Boldt 3-Z Teaching Award\\
-		Spring 2016 Purdue Spark Challenge 3rd place
+\begin{itemize}
+\item
+	\ressubheadinga{Myntra (Walmart Subsidiary)}{Bangalore, India}
+	\ressubheadingb{Software Engineering Intern}{May 2018 - Aug. 2018}
+	\begin{itemize}
+        \resitem{Worked with \emph{Myntra Labs} to integrate Myntra's online infrastructure with its offline stores.}
+		\resitem{Applied computer vision techniques to monitor store traffic, analyze age/gender demographics, identify returning customers, and detect customer satisfaction.}
+		\resitem{Developed a system where computer vision-based inferences from store cameras are broadcast to store devices to provide personalized services such as product/size recommendations to customers.}
+	\end{itemize}
+\end{itemize}
 
-\end{tabular*}
+\begin{itemize}
+\item
+    \ressubheadinga{Purdue University, Department of Physics}{West Lafayette, IN}
+    \ressubheadingb{Undergraduate Teaching Assistant}{Aug. 2017 - May 2018}
+    \begin{itemize}
+        \resitem{Assisted in running weekly help sessions for an \textit{Electricity and Magnetism} course.}
+        \resitem{Held review sessions to solve practice problems for exams.}
+    \end{itemize}
+\end{itemize}
 
+\vspace{-0.16in}
+\resheading{Projects}
+\vspace{-0.235in}
+
+\begin{itemize}
+\item
+    \ressubheadinga{PayShare}{\emph{May 2018 - Present}}
+    \vspace{-0.25in}
+    \begin{itemize}
+        \resitem{Developed a web application to split and keep track of expenses amongst a group of people.}
+        \resitem{Applied image processing frameworks and Tesseract OCR to scan receipts and generate a list of items for users to select and split.}
+        \resitem{Working on transitive simplification of group expenses and porting PayShare to Android and iOS.}
+    \end{itemize}
+
+\item
+    \ressubheadinga{SmartPass}{\emph{October 2016}}
+    \vspace{-0.25in}
+    \begin{itemize}
+        \resitem{Built an event-ticketing system which authorizes people using face/voice recognition.}
+        \resitem{Deployed a server to provide face recognition services for iOS devices to identify people at events.}
+        \resitem{Demoed SmartPass at \textit{MHacks 2016}.}
+    \end{itemize}
+\end{itemize}
+
+\vspace{-0.16in}
 \resheading{Skills}
-\vspace{-0.25in}
+\vspace{-0.20in}
 
 \begin{description}
-\item[Languages:]
-MATLAB, C/C++, Python, AT\&T Assembly
-\item[Software Packages:]
-GNU Radio, EAGLE, COMSOL Multiphysics, PSpice
-\item[Miscellaneous:]
-Linux, Git
+\item[Languages:] C, C++, Python, Java, JavaScript, MATLAB.
+\item[Frameworks:] React, Numpy.
+\item[Softwares/Systems]: Unix, Linux, Git, Vim, Tmux, LaTeX.
 \end{description}
-
-
 
 \end{document}

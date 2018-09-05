@@ -1,5 +1,8 @@
 dist/
 resume.pdf
+resume.ps
+resume.dvi
 resume.aux
 resume.log
 resume.synctex.gz
+*.swp
