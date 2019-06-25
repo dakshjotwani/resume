@@ -5,3 +5,4 @@ resume.aux
 resume.log
 resume.synctex.gz
 *.swp
+.DS_Store
